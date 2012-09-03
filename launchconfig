@@ -1,5 +1,5 @@
 [app]
-  version: 2012.08.27.fe186af
+  version: 2012.09.03.fe186af
   org: net.databinder.giter8
   name: giter8
   class: giter8.Giter8
@@ -8,6 +8,7 @@
 [repositories]
   local
   maven-central
+  typesafe-release: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).xml, [organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).[ext]
   sonatype-releases: https://oss.sonatype.org/content/repositories/releases/
   jto-snapshots: https://raw.github.com/jto/mvn-repo/master/snapshots/, [organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).xml, [organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).[ext]
 
