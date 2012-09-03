@@ -1,0 +1,15 @@
+[app]
+  version: 2012.08.27.fe186af
+  org: net.databinder.giter8
+  name: giter8
+  class: giter8.Giter8
+[scala]
+  version: 2.9.2
+[repositories]
+  local
+  maven-central
+  sonatype-releases: https://oss.sonatype.org/content/repositories/releases/
+  jto-snapshots: https://raw.github.com/jto/mvn-repo/master/snapshots/, [organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).xml, [organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).[ext]
+
+#[boot]
+#  directory: /Users/jtournay/.conscript/boot
